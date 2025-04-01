@@ -18,6 +18,8 @@
                     <li class="nav-item"><a class="nav-link" href="#intro">簡介</a></li>
                     <li class="nav-item"><a class="nav-link" href="#features">功能</a></li>
                     <li class="nav-item"><a class="nav-link" href="#gallery">圖片</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#guide">使用說明</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#shortcuts">快捷鍵</a></li>
                     <li class="nav-item"><a class="nav-link" href="#download">下載</a></li>
                 </ul>
             </div>
@@ -35,13 +37,17 @@
     </div>
     
     <div class="container my-5" id="features">
-        <h2>主要功能</h2>
+        <h2>全部功能</h2>
         <ul>
-            <li>強大的 3D 建模工具</li>
-            <li>先進的渲染技術（Cycles、Eevee）</li>
-            <li>動畫與骨架綁定支援</li>
-            <li>影片剪輯與合成</li>
-            <li>支援 Python 腳本擴展</li>
+            <li><strong>3D 建模：</strong> 支援多邊形建模、雕刻、高細節建模與拓撲重構</li>
+            <li><strong>雕刻工具：</strong> 具備多種筆刷、動態拓撲與高階雕刻功能</li>
+            <li><strong>動畫與綁定：</strong> 角色骨架、Inverse Kinematics (IK)、動作捕捉</li>
+            <li><strong>物理模擬：</strong> 碰撞、布料、煙霧、液體、剛體與柔體物理</li>
+            <li><strong>渲染引擎：</strong> 支援 Cycles 與 Eevee 即時渲染</li>
+            <li><strong>視覺效果：</strong> 合成節點編輯器、多層影像處理</li>
+            <li><strong>影片剪輯：</strong> 時間軸編輯、音訊同步、轉場特效</li>
+            <li><strong>遊戲開發支援：</strong> PBR 材質、GLTF、FBX 匯出</li>
+            <li><strong>Python 擴展：</strong> 可撰寫自訂腳本擴充功能</li>
         </ul>
     </div>
     
@@ -52,6 +58,38 @@
             <div class="col-md-4"><img src="https://via.placeholder.com/300" class="img-fluid" alt="Blender 作品"></div>
             <div class="col-md-4"><img src="https://via.placeholder.com/300" class="img-fluid" alt="Blender 作品"></div>
         </div>
+    </div>
+    
+    <div class="container my-5" id="guide">
+        <h2>使用說明</h2>
+        <ol>
+            <li><strong>下載與安裝：</strong> 前往 <a href="https://www.blender.org/download/" target="_blank">官方網站</a> 下載最新版本並安裝</li>
+            <li><strong>基礎操作：</strong> 熟悉 Blender 介面、視角切換與基本工具</li>
+            <li><strong>建立物件：</strong> 使用 Add (Shift + A) 新增基本幾何形狀</li>
+            <li><strong>編輯模式：</strong> 進入 Edit Mode (Tab) 來編輯頂點、邊與面</li>
+            <li><strong>雕刻模式：</strong> 進行高細節雕刻並使用筆刷工具</li>
+            <li><strong>材質與貼圖：</strong> 使用 Shader Editor 設定材質、貼圖與 PBR 效果</li>
+            <li><strong>燈光與攝影機：</strong> 設置光源與相機視角來最佳化渲染</li>
+            <li><strong>動畫與骨架綁定：</strong> 使用 Armature 來創建角色動畫</li>
+            <li><strong>渲染輸出：</strong> 選擇 Cycles 或 Eevee 來進行最終渲染</li>
+            <li><strong>影片剪輯：</strong> 在 Video Sequence Editor 內進行基本剪輯與輸出</li>
+        </ol>
+    </div>
+    
+    <div class="container my-5" id="shortcuts">
+        <h2>快捷鍵</h2>
+        <ul>
+            <li><strong>G：</strong> 移動物件</li>
+            <li><strong>R：</strong> 旋轉物件</li>
+            <li><strong>S：</strong> 縮放物件</li>
+            <li><strong>Tab：</strong> 切換物件/編輯模式</li>
+            <li><strong>Shift + A：</strong> 新增物件</li>
+            <li><strong>X / Delete：</strong> 刪除選取物件</li>
+            <li><strong>Ctrl + Z：</strong> 撤銷操作</li>
+            <li><strong>Ctrl + Shift + Z：</strong> 重做操作</li>
+            <li><strong>F12：</strong> 渲染圖片</li>
+            <li><strong>Ctrl + B：</strong> 設定渲染區域</li>
+        </ul>
     </div>
     
     <div class="container my-5 text-center" id="download">
